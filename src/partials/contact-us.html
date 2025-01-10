@@ -1,5 +1,60 @@
 <section class="contact-us">
-    <div class="container">
-        
+  <div class="container">
+    <h2 class="contacts-us-title">Contact Us</h2>
+    <div class="contact-us-wrap">
+      <div class="contact-us-box">
+        <p class="contact-us-txt">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-us-form">
+          <div class="contact-us-group">
+            <label for="user-name" class="contact-us-label">
+              <input
+                class="contact-us-input"
+                type="text"
+                name="user-name"
+                placeholder="Name"
+                autofocus
+              />
+            </label>
+          </div>
+          <div class="contact-us-group">
+            <label for="user-email" class="contact-us-label">
+              <input
+                class="contact-us-input"
+                type="text"
+                name="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              />
+            </label>
+          </div>
+          <div class="contact-us-group">
+            <label for="user-phone" class="contact-us-label">
+              <input
+                class="contact-us-input"
+                type="text"
+                name="user-phone"
+                placeholder="+380"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              />
+            </label>
+          </div>
+          <div class="contact-us-form-comment">
+            <label for="user-comment" class="contact-us-label">
+              <textarea
+                name="user-comment"
+                class="contact-us-input"
+                placeholder="Comment"
+                rows="3"
+              ></textarea>
+            </label>
+          </div>
+          <button class="contact-us-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <img src="./img/ectangle.png" alt="" class="contact-us-img" />
     </div>
+  </div>
 </section>
