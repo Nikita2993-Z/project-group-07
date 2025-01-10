@@ -54,7 +54,30 @@
           <button class="contact-us-btn" type="submit">Send</button>
         </form>
       </div>
-      <img src="./img/ectangle.png" alt="" class="contact-us-img" />
+      <picture>
+        <source
+          srcset="
+            /img/contact-us/contact-us-pc.jpg    1x,
+            /img/contact-us/contact-us-pc@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            /img/contact-us/contact-us-tab.jpg    1x,
+            /img/contact-us/contact-us-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /img/contact-us/contact-us-mob.jpg    1x,
+            /img/contact-us/contact-us-mob@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img src="/img/contact-us/contact-us-mob.jpg" alt="premium watch" />
+      </picture>
     </div>
   </div>
 </section>
