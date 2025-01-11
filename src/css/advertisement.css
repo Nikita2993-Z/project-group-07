@@ -90,7 +90,7 @@
   .advertisement-section-container {
     background-image: url(../img/advertisement/adv-tab@2x.png);
   }
-} /*
+}
 @media only screen and (min-width: 1280px) {
   .advertisement.container {
     max-width: 1280px;
@@ -112,4 +112,4 @@
   .advertisement-section-container {
     background-image: url(../img/advertisement/adv-desc@2x.png);
   }
-}*/
+}
