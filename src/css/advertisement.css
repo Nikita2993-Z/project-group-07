@@ -64,9 +64,52 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-/*.advertisement-link-container:hover,*/
 .advertisement-link:hover,
 .advertisement-link:focus {
   color: #0c0c0c;
   background-color: #fbfbfb;
 }
+@media only screen and (min-width: 768px) {
+  .advertisement-section-container {
+    background-image: url(../img/advertisement/adv-tab.png);
+    max-width: 704px;
+    padding: 80px 64px;
+  }
+  .advertisement.container {
+    padding: 40px 32px;
+  }
+  .advertisement-text {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+  .advertisement-text-container {
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .advertisement-section-container {
+    background-image: url(../img/advertisement/adv-tab@2x.png);
+  }
+} /*
+@media only screen and (min-width: 1280px) {
+  .advertisement.container {
+    max-width: 1280px;
+    padding: 50px 65px;
+  }
+  .advertisement-section-container {
+    background-image: url(../img/advertisement/adv-desk.png);
+    max-width: 1150px;
+    display: flex;
+    padding: 83px 80px;
+  }
+  .advertisement-text-container {
+    margin-right: 140px;
+    max-width: 690px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .advertisement-section-container {
+    background-image: url(../img/advertisement/adv-desc@2x.png);
+  }
+}*/
