@@ -11,6 +11,10 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.visually {
+  display: none;
+}
+/*CSS MOB*/
 .catalog {
   margin: 30px 0;
 }
@@ -78,4 +82,58 @@
 .catalog_btn:hover,
 .catalog_btn:focus {
   background-color: #1f3cd4;
+}
+/*CSS TAB*/
+@media screen and (min-width: 768px) {
+  .visually {
+    display: list-item;
+  }
+  .catalog {
+    margin: 40px 0;
+  }
+  .catalog_div_items {
+    padding: 24px 32px;
+  }
+  .catalog_h2 {
+    font-size: 48px;
+    line-height: 0.91667;
+    margin-bottom: 40px;
+  }
+  .catalog_ul_items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 32px;
+    margin-bottom: 0;
+  }
+  .catalog_li_items {
+    width: calc((100% - 16px) / 2);
+  }
+  .catalog_div_items_img {
+    padding: 10px 6px;
+  }
+  .catalog_p_name {
+    font-size: 20px;
+    line-height: 1;
+    white-space: nowrap;
+    max-width: 268px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .catalog_btn {
+    display: none;
+  }
+}
+/*CSS PC*/
+@media screen and (min-width: 1280px) {
+  .catalog {
+    margin: 50px 0;
+  }
+
+  .catalog_h2 {
+    margin-bottom: 40px;
+  }
+  .catalog_li_items {
+    width: calc((100% - 32px) / 3);
+  }
 }
