@@ -111,7 +111,6 @@ body {
     height: 34px;
     background-color: transparent;
     border: none;
-    margin-right: 20px;
 }
 .header-burger-icon {
     width: 28px;
@@ -212,6 +211,4 @@ body {
         display: none;
     }
 }
-
-
 
