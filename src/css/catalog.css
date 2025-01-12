@@ -16,10 +16,10 @@
 }
 /*CSS MOB*/
 .catalog {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 .catalog_h2 {
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 .catalog_ul_items {
   display: flex;
@@ -93,7 +93,7 @@
     display: list-item;
   }
   .catalog {
-    margin: 40px 0;
+    padding: 40px 0;
   }
   .catalog_div_items {
     padding: 24px 32px;
@@ -101,7 +101,7 @@
   .catalog_h2 {
     font-size: 48px;
     line-height: 0.91667;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .catalog_ul_items {
     flex-direction: row;
@@ -131,11 +131,11 @@
 /*CSS PC*/
 @media screen and (min-width: 1280px) {
   .catalog {
-    margin: 50px 0;
+    padding: 50px 0;
   }
 
   .catalog_h2 {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .catalog_li_items {
     width: calc((100% - 32px) / 3);
