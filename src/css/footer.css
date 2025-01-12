@@ -15,6 +15,10 @@
   border-radius: 30px;
 }
 
+.footer-top-box {
+  margin-bottom: 40px;
+}
+
 .footer-logo-soc-box {
   margin-bottom: 20px;
   width: 122px;
@@ -74,7 +78,6 @@ footer .logo {
   color: #fbfbfb;
 
   padding: 13px 20px;
-  margin-bottom: 40px;
 
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
@@ -107,6 +110,10 @@ footer .logo {
   margin-bottom: 48px;
 
   position: relative;
+
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: capitalize;
 }
 
 .footer-nav-address-box::after {
@@ -127,19 +134,11 @@ footer .logo {
   row-gap: 8px;
 
   width: 147px;
-
-  font-size: 12px;
-
-  line-height: 1.33;
-  text-align: center;
-  text-transform: capitalize;
 }
 
 .footer-address {
   width: 83px;
 
-  font-size: 12px;
-  line-height: 1.33;
   font-style: normal;
 }
 
@@ -161,65 +160,110 @@ footer .logo {
   gap: 20px;
 }
 
-/* #endregion======== MOBILE ============ */
+/* #endregion===== MOBILE ============ */
 
 /* #region======== TABLET ============ */
 @media screen and (min-width: 768px) {
   .footer {
+    padding-top: 40px;
   }
-  .container {
-  }
+
   .footer-main-box {
+    padding: 40px 40px 28px 40px;
   }
+
   .footer-top-box {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    row-gap: 86px;
+    margin-bottom: 86px;
   }
+
   .footer-logo-soc-box {
+    margin-bottom: 0;
   }
-  .logo {
-  }
-  .footer-social-list {
-  }
+
   .footer-social-item {
+    width: 36px;
+    height: 36px;
   }
-  .footer-social-link {
+
+  .footer-social-item:hover .footer-social-icon,
+  .footer-social-item:hover .footer-social-icon {
+    opacity: 1;
   }
-  .footer-social-icon {
+
+  .footer-phone-link:hover,
+  .footer-phone-link:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
   }
-  .footer-phone-link {
-  }
+
   .footer-title {
     width: 524px;
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -0.02em;
     text-align: center;
+
+    margin: 0 auto;
+    margin-bottom: 100px;
   }
+
   .footer-nav-address-box {
+    margin-bottom: 56px;
+
+    font-size: 14px;
+    line-height: 1.29;
   }
-  .footer-nav {
+
+  .footer-nav-address-box::after {
+    bottom: -28px;
   }
+
   .footer-nav-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 400px;
   }
-  .footer-nav-item {
-  }
-  .footer-nav-link {
-  }
+
   .footer-address {
+    width: 162px;
   }
+
   .footer-bottom-box {
-  }
-  .footer-copyright-text {
-  }
-  .footer-terms-and-privacy-box {
-  }
-  .footer-terms-text {
-  }
-  .footer-privacy-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
-/* #endregion======== TABLET ============ */
+/* #endregion===== TABLET ============ */
+
+/* #region======== DESKTOP ============ */
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 50px;
+  }
+
+  .footer-main-box {
+    position: relative;
+  }
+
+  .footer-top-box {
+    margin-bottom: 142px;
+  }
+
+  .footer-title {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+  }
+}
+
+/* #endregion===== DESKTOP ============ */
