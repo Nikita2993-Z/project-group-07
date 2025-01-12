@@ -216,8 +216,6 @@
     width: 480px;
   }
   .list-scroll-container {
-    position: absolute;
-    transform: translateX(+590%);
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
