@@ -83,6 +83,10 @@
 .catalog_btn:focus {
   background-color: #1f3cd4;
 }
+.catalog_div_picture {
+  display: flex;
+  justify-content: center;
+}
 /*CSS TAB*/
 @media screen and (min-width: 768px) {
   .visually {
