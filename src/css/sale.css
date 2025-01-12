@@ -1,0 +1,113 @@
+.sale{
+    margin-bottom: 60px;
+}
+.sale-name{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+.sale-ul-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+.sale-li-items{
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    min-width: 80px;
+    background: #f3f3f3;
+}
+.sale-img-items{
+    padding: 13px 14px;
+}
+.sale-big-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    min-width: 335px;
+    min-height: 385px;
+    background: #f3f3f3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sale-content{
+    border-radius: 30px;
+    min-width: 335px;
+    min-height: 561px;
+    background: #3350e9;
+    color: #fbfbfb;
+    padding: 48px 28px;
+}
+.marq{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+}
+.tag{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+.price{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
+}
+.new-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px 12px;
+    min-width: 68px;
+    min-height: 32px;
+    background: rgba(251, 251, 251, 0.1);
+}
+.old-price{
+        text-decoration: line-through;
+        color: rgba(251, 251, 251, 0.5);
+}
+.text-marq{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+}
+.desc-li{
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: auto;
+    min-height: 32px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
