@@ -227,6 +227,11 @@ footer .logo {
     width: 400px;
   }
 
+  .footer-nav-link:hover,
+  .footer-nav-link:focus {
+    text-decoration: underline;
+  }
+
   .footer-address {
     width: 162px;
   }
