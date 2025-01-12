@@ -136,6 +136,11 @@ footer .logo {
   width: 147px;
 }
 
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  text-decoration: underline;
+}
+
 .footer-address {
   width: 83px;
 
