@@ -249,6 +249,11 @@ footer .logo {
     font-size: 14px;
     line-height: 1.29;
   }
+
+  .footer-terms-and-privacy-link:hover,
+  .footer-terms-and-privacy-link:focus {
+    text-decoration: underline;
+  }
 }
 /* #endregion===== TABLET ============ */
 
