@@ -136,6 +136,11 @@ footer .logo {
   width: 147px;
 }
 
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  text-decoration: underline;
+}
+
 .footer-address {
   width: 83px;
 
@@ -227,6 +232,11 @@ footer .logo {
     width: 400px;
   }
 
+  .footer-nav-link:hover,
+  .footer-nav-link:focus {
+    text-decoration: underline;
+  }
+
   .footer-address {
     width: 162px;
   }
@@ -238,6 +248,11 @@ footer .logo {
 
     font-size: 14px;
     line-height: 1.29;
+  }
+
+  .footer-terms-and-privacy-link:hover,
+  .footer-terms-and-privacy-link:focus {
+    text-decoration: underline;
   }
 }
 /* #endregion===== TABLET ============ */
