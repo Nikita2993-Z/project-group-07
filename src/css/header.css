@@ -160,15 +160,18 @@ body {
 }
 
 .header-nav-item.current::after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background-color: #3350e9;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #3350e9;
+}
+.header-nav-item:not(.current)::after {
+  display: none; 
 }
 }
 
@@ -247,9 +250,9 @@ body {
   flex-direction: column;
   align-items: center;
   transition: left 0.3s ease-in-out;
-  background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient( 
+    rgba(12, 12, 12, 0.92),
+    rgba(12, 12, 12, 0.92)),
   url('../img/header/bgr-watch-mobile-light.jpg');
   background-size: cover;
   background-position: center;
@@ -270,16 +273,15 @@ body {
   .mobile-menu {
     width: 330px;
     min-height: 1024px;
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient( 
+      rgba(12, 12, 12, 0.92),
+      rgba(12, 12, 12, 0.92)),
     url(../img/header/bgr-watch-tablet-light.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .mobile-menu {
-    
   }
 }
 
@@ -333,6 +335,7 @@ body {
     gap: 24px;
 }
 .mobile-menu-nav-item {
+  position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
