@@ -150,6 +150,7 @@
   .container_catalog {
     padding-left: 65px;
     padding-right: 65px;
+    max-width: 1150px;
   }
   .catalog {
     padding: 50px 0;
