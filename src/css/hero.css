@@ -9,7 +9,7 @@
   flex-direction: column;
   gap: 28px;
   padding: 60px 20px 0px 20px;
-  width: 375px;
+  max-width: 375px;
 }
 .text-container {
   display: flex;
@@ -112,7 +112,7 @@
     flex-direction: column;
     gap: 40px;
     padding: 80px 32px 0px 32px;
-    width: 768px;
+    max-width: 768px;
   }
   .hero-container {
     display: flex;
@@ -160,10 +160,7 @@
     height: 260px;
     position: relative;
   }
-  .hero-list {
-  }
-  .hero-item {
-  }
+
   .photo {
     width: 56px;
     height: 56px;
@@ -222,7 +219,7 @@
     flex-direction: column;
     gap: 40px;
     padding: 80px 65px 0px 65px;
-    width: 1280px;
+    max-width: 1280px;
   }
   .hero-container {
     display: flex;
@@ -269,8 +266,7 @@
     height: 269px;
     position: relative;
   }
-  .hero-list {
-  }
+
   .photo {
     width: 60px;
     height: 60px;
