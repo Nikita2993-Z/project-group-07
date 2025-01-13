@@ -264,6 +264,11 @@ footer .logo {
     padding-top: 50px;
   }
 
+  .footer .container {
+    width: 1216px;
+    padding: 0;
+  }
+
   .footer-main-box {
     position: relative;
   }
