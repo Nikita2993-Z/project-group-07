@@ -1,5 +1,5 @@
 .sale-container {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .sale {
@@ -209,8 +209,7 @@
 
 @media (min-width: 1280px) {
     .container {
-        padding: 0;
-        padding-top: 30px;
+        
     }
 
     .tablet-container {
@@ -220,7 +219,7 @@
     }
 
     .sale-name {
-        padding-left: 65px;
+        
         padding-bottom: 40px;
     }
 
@@ -234,7 +233,7 @@
         flex-direction: row;
         gap: 40px;
         width: 1150px;
-        padding: 0 65px;
+        
     }
 
     .sale-content {
