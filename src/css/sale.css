@@ -1,5 +1,9 @@
+.sale-container {
+    padding-top: 30px;
+}
+
 .sale {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .sale-name {
@@ -8,7 +12,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .sale-ul-items {
@@ -128,7 +132,7 @@
 
 @media (min-width: 768px) {
     .sale {
-        margin-bottom: 40px;
+        padding-bottom: 40px;
     }
 
     .sale-name {
@@ -141,6 +145,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 40px;
+        width: 704px;
     }
 
     .sale-ul-items {
@@ -167,7 +172,7 @@
 
     .sale-content {
         border-radius: 50px;
-        min-width: 704px;
+        width: 704px;
         min-height: 518px;
         padding: 60px;
     }
@@ -203,10 +208,20 @@
 }
 
 @media (min-width: 1280px) {
+    .container {
+        padding: 0;
+        padding-top: 30px;
+    }
+
     .tablet-container {
         justify-content: flex-start;
         gap: 20px;
         margin: 0;
+    }
+
+    .sale-name {
+        padding-left: 65px;
+        padding-bottom: 40px;
     }
 
     .sale-big-img {
@@ -218,6 +233,8 @@
         display: flex;
         flex-direction: row;
         gap: 40px;
+        width: 1150px;
+        padding: 0 65px;
     }
 
     .sale-content {
