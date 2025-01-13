@@ -15,10 +15,17 @@
   display: none;
 }
 /*CSS MOB*/
+
 .catalog {
   padding: 30px 0;
 }
 .catalog_h2 {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
   padding-bottom: 24px;
 }
 .catalog_ul_items {
@@ -92,6 +99,10 @@
   .visually {
     display: list-item;
   }
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .catalog {
     padding: 40px 0;
   }
@@ -130,6 +141,10 @@
 }
 /*CSS PC*/
 @media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
   .catalog {
     padding: 50px 0;
   }
