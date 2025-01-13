@@ -102,7 +102,7 @@
   .visually {
     display: list-item;
   }
-  .container_catalog {
+  .catalog .container_catalog {
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -147,7 +147,7 @@
 }
 /*CSS PC*/
 @media screen and (min-width: 1280px) {
-  .container_catalog {
+  .catalog .container_catalog {
     padding-left: 65px;
     padding-right: 65px;
     max-width: 1150px;
