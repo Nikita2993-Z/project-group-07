@@ -2,7 +2,7 @@
   padding: 30px 0;
 }
 
-.title-about-us {max-width: 580px;
+.title-about-us {
   background-color: #f3f3f3;
   border-radius: 30px;
   padding: 0 20px;
@@ -55,7 +55,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.img-about-us {
+.img-about-us {border-radius: 50px;
   background: rgba(12, 12, 12, 0.2);
 }
 .button:hover,
@@ -108,7 +108,7 @@
   .button {
     margin-top: 40px;
   }
-  .title-about-us {
+  .title-about-us {max-width: 580px;
     margin-bottom: 0;
   }
   .container-watch {
