@@ -32,7 +32,8 @@ body {
     background: #fbfbfb
 }
 
-
+.section .container {
+    padding-bottom: 30px;}
 .review-img {
     border-radius: 56px
 }
@@ -140,3 +141,13 @@ body {
         letter-spacing: -.36px
     }
 }
+@media screen and (min-width: 768px) {
+    .section .container {
+        padding-bottom: 40px;}
+}
+@media screen and (min-width: 1280px) {
+    .section .container {
+        padding-bottom: 50px;
+    }
+}
+

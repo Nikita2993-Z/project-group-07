@@ -2,7 +2,7 @@
 
 .footer {
   padding-top: 30px;
-
+padding-bottom: 20px;
   font-weight: 500;
   letter-spacing: -0.02em;
 }
@@ -171,6 +171,7 @@ footer .logo {
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 40px;
+    padding-bottom: 32px;
   }
 
   .footer-main-box {
@@ -262,6 +263,7 @@ footer .logo {
 @media screen and (min-width: 1280px) {
   .footer {
     padding-top: 50px;
+    padding-bottom: 32px;
   }
 
   .footer .container {
