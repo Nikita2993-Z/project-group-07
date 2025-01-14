@@ -236,6 +236,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)),
     url(../img/header/bgr-watch-tablet-light.jpg);
+    z-index: 9999999;
   }
 }
 
