@@ -147,11 +147,11 @@
     align-items: center;
     border: 1px solid rgba(12, 12, 12, 0.1);
     border-radius: 10px;
-    padding: 8px;
+    
     background-color: transparent;
 }
-.header-media-item:focus,
-.header-media-item:hover {
+.header-icon-media-link:focus,
+.header-icon-media-link:hover {
   border: 1px solid rgba(51, 80, 233, 0.1);
 }
 .header-icon-media-link {
@@ -175,6 +175,13 @@
 @media screen and (min-width: 1280px) {
     .header-burger-btn {
         display: none;
+
+        
+    }
+    .header-icon-media-link:focus,
+    .header-icon-media-link:hover {
+      border: 1px solid rgba(51, 80, 233, 0.1);
+
     }
 }
 

@@ -19,7 +19,7 @@
   background-color: #0c0c0c;
   background-image: url(../img/advertisement/adv-mob.png);
   border-radius: 30px;
-  min-width: 335px;
+  max-width: 335px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

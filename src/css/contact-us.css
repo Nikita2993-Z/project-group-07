@@ -103,6 +103,7 @@
           flex-direction: column;
           text-align: center;
           gap: 18px;
+          max-width: 279px;
       }
 
       .contact-us-label {
@@ -118,7 +119,7 @@
 
       .contact-us-input {
           display: block;
-          width: 279px;
+          min-width: 224px;
           padding: 12px 14px;
           border-radius: 12px;
           background-color: transparent;

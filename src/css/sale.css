@@ -20,12 +20,13 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 5px;
+    max-width: 335px;
 }
 
 .sale-li-items {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
-    min-width: 80px;
+    max-width: 80px;
     background: #f3f3f3;
 }
 
@@ -39,8 +40,8 @@
     justify-content: center;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    min-width: 335px;
-    min-height: 385px;
+    max-width: 335px;
+    height: 385px;
     background: #f3f3f3;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -48,7 +49,7 @@
 
 .sale-content {
     border-radius: 30px;
-    min-width: 335px;
+    min-width: 280px;
     min-height: 561px;
     background: #3350e9;
     color: #fbfbfb;
@@ -170,12 +171,13 @@
         border-radius: 30px;
         min-width: 552px;
         margin: 0;
+        height: 558px;
     }
 
     .sale-content {
         border-radius: 50px;
         width: 704px;
-        min-height: 518px;
+        height: 518px;
         padding: 60px;
     }
 
