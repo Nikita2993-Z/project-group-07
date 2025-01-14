@@ -1,62 +1,5 @@
-/* common reles */
 
-body {
-    background: #fbfbfb;
-    margin: 0;
-    font-family: "Gilroy" , sans-serif;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
-  
-  ul, ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  a {
-    color: currentColor;
-    text-decoration: none;
-  }
-  
-  button {
-    cursor: pointer;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
 
-  /* Styles for Mobile devices */
-.container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  /* Styles for Tablet devices */
-  @media only screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
-  }
-  /* Styles for Desktop devices */
-  @media only screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-  }  
-  
-/* header */
 
 .header {
   border-bottom: 1px solid #ddd; 
@@ -208,12 +151,12 @@ body {
     align-items: center;
     border: 1px solid rgba(12, 12, 12, 0.1);
     border-radius: 10px;
-    padding: 8px;
+    
     background-color: transparent;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.header-media-item:focus,
-.header-media-item:hover {
+.header-icon-media-link:focus,
+.header-icon-media-link:hover {
   border: 1px solid rgba(51, 80, 233, 0.1);
 }
 .header-icon-media-link {
@@ -238,6 +181,13 @@ body {
 @media screen and (min-width: 1280px) {
     .header-burger-btn {
         display: none;
+
+        
+    }
+    .header-icon-media-link:focus,
+    .header-icon-media-link:hover {
+      border: 1px solid rgba(51, 80, 233, 0.1);
+
     }
 }
 
@@ -398,7 +348,7 @@ body {
   height: 18px;
   fill: #fbfbfb;
   opacity: 0,8;
-  transform: opacity; 
+  
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

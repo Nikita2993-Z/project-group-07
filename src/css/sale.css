@@ -1,0 +1,253 @@
+.sale-container {
+    padding-top: 50px;
+}
+
+.container.sale-container {
+    padding-bottom: 60px;
+}
+
+.sale-name {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    padding-bottom: 24px;
+}
+
+.sale-ul-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    max-width: 335px;
+}
+
+.sale-li-items {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    max-width: 80px;
+    background: #f3f3f3;
+}
+
+.sale-img-items {
+    padding: 13px 14px;
+}
+
+.sale-big-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    max-width: 335px;
+    height: 385px;
+    background: #f3f3f3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sale-content {
+    border-radius: 30px;
+    min-width: 280px;
+    min-height: 561px;
+    background: #3350e9;
+    color: #fbfbfb;
+    padding: 48px 28px;
+}
+
+.marq {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
+}
+
+.new-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px 12px;
+    min-width: 68px;
+    min-height: 32px;
+    background: rgba(251, 251, 251, 0.1);
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.text-marq {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+}
+
+.desc-li {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: auto;
+    min-height: 32px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+    .sale {
+        
+    }
+.container.sale-container {
+    padding-bottom: 80px;
+}
+    .sale-name {
+        font-size: 48px;
+        line-height: 0.92;
+    }
+
+    .tablet-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        width: 704px;
+    }
+
+    .sale-ul-items {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .sale-li-items {
+        border-radius: 20px;
+        min-width: 132px;
+    }
+
+    .sale-img-items {
+        padding: 16px 18px;
+    }
+
+    .sale-big-img {
+        border-radius: 30px;
+        min-width: 552px;
+        margin: 0;
+        height: 558px;
+    }
+
+    .sale-content {
+        border-radius: 50px;
+        width: 704px;
+        height: 518px;
+        padding: 60px;
+    }
+
+    .marq {
+        font-size: 32px;
+        line-height: 1.13;
+    }
+
+    .price {
+        margin-bottom: 30px;
+    }
+
+    .new-price {
+        min-width: 78px;
+    }
+
+    .text-marq {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 40px;
+    }
+
+    .desc {
+        width: 398px;
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .desc-li {
+        min-height: 34px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container.sale-container {
+        padding-bottom: 100px;
+        
+    }
+
+    .tablet-container {
+        justify-content: flex-start;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .sale-name {
+        
+        padding-bottom: 40px;
+    }
+
+    .sale-big-img {
+        border-radius: 50px;
+        min-width: 428px;
+    }
+
+    .desktop-container {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        width: 1150px;
+        
+    }
+
+    .sale-content {
+        border-radius: 50px;
+        min-width: 530px;
+    }
+
+    .price {
+        margin-bottom: 30px;
+    }
+
+}

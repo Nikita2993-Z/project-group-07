@@ -1,0 +1,154 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews .name-text {
+    color: #0c0c0c66;
+    text-align: center;
+
+}
+
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+
+body {
+    font-family: Gilroy,sans-serif;
+    font-style: normal;
+    background: #fbfbfb
+}
+
+.section .container {
+    padding-bottom: 30px;}
+.review-img {
+    border-radius: 56px
+}
+
+.review-lists {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    max-width: 335px;
+    
+    overflow: auto
+}
+
+.review-items {
+    display: flex;
+    box-sizing: border-box;
+    min-width: 280px;
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 36px;
+    border-radius: 30px;
+    background: #f3f3f3;
+    transition: background .25s cubic-bezier(.4,0,.2,1)
+}
+
+.review-items:hover {
+    background: #e4e1e1
+}
+
+@media screen and (min-width: 768px) {
+    .review-lists {
+        display:flex;
+        flex-direction: row;
+        max-width: 704px;
+        min-height: 272px;
+        gap: 16px
+    }
+
+    .review-items {
+        min-width: 344px;
+        flex-basis: calc((100% - 16px)/2)
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .review-lists {
+        display:flex;
+        gap: 20px;
+        max-width: 1150px
+    }
+
+    .review-items {
+        max-width: 370px;
+        flex-basis: calc((100% - 20px) / 3)
+    }
+}
+
+.review-inform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+    gap: 8px;
+    max-width: 263px
+}
+
+@media screen and (min-width: 768px) {
+    .review-inform {
+        min-width:272px
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .review-inform {
+        max-width:298px
+    }
+}
+
+.reviews .name-title {
+    margin-bottom: 24px
+}
+
+@media screen and (min-width: 768px) {
+    .reviews .name-title {
+        margin-bottom:40px
+    }
+}
+
+.review-subtitles {
+    color: #0c0c0c;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -.32px
+}
+
+@media screen and (min-width: 768px) {
+    .review-subtitles {
+        font-size:18px;
+        line-height: 19.8px;
+        letter-spacing: -.36px
+    }
+}
+@media screen and (min-width: 768px) {
+    .section .container {
+        padding-bottom: 40px;}
+}
+@media screen and (min-width: 1280px) {
+    .section .container {
+        padding-bottom: 50px;
+    }
+}
+
