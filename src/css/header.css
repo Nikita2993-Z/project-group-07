@@ -59,7 +59,10 @@ body {
 /* header */
 
 .header {
-  
+  border-bottom: 1px solid #ddd; 
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  z-index: 9,99;
 }
 .header-cont.container {
     display: flex;
@@ -165,10 +168,11 @@ body {
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 8px;
+    width: 8px; 
     height: 8px;
     border-radius: 100%;
     background-color: #3350e9;
+   
 }
 .header-nav-item:not(.current)::after {
   display: none; 
@@ -206,6 +210,7 @@ body {
     border-radius: 10px;
     padding: 8px;
     background-color: transparent;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .header-media-item:focus,
 .header-media-item:hover {
@@ -222,6 +227,7 @@ body {
     fill: #0c0c0c;
     width: 16px;
     height: 16px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .header-media-icon:focus,
 .header-media-icon:hover {
@@ -240,7 +246,7 @@ body {
 .mobile-menu {
   position: fixed;
   top: 0;
-  left: -100%;
+  right: -100%;
   width: 200px;
   height: 812px;
   background-color: #0c0c0c;
@@ -259,14 +265,17 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+@media screen and (max-width: 767.8px) and (min-resolution: 192dpi){
   .mobile-menu {
-    
+    background-image: linear-gradient( 
+    rgba(12, 12, 12, 0.92),
+    rgba(12, 12, 12, 0.92)),
+  url('../img/header/bgr-watch-m-retina.jpg');
   }
 }
 
 .mobile-menu.is-open {
-  left: 0;
+  right: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -282,6 +291,10 @@ body {
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .mobile-menu {
+    background-image: linear-gradient( 
+      rgba(12, 12, 12, 0.92),
+      rgba(12, 12, 12, 0.92)),
+    url('../img/header/bgr-watch-t-retina.jpg');
   }
 }
 
