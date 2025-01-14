@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu with Social Icons</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+    <!-- Встроенный SVG для социальных иконок -->
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg"> 
+        <defs>
+            <symbol id="icon-facebook" viewBox="0 0 32 32">
+                <path d="M20.693 1.92h1.28v4.8h-1.6c-.64 0-1.28 0-1.6.32-.32.32-.32.64-.32 1.387v1.707h3.52v4.053h-3.52v17.6h-5.44V14.08h-2.88v-4.053h2.88V8.64c0-2.347.32-4.053.96-4.8.96-1.387 2.88-2.027 5.76-2.027.32.107.64.107.96.107z"/>
+            </symbol>
+            <symbol id="icon-insta" viewBox="0 0 32 32">
+                <path d="M28.718 10.756c-0.016-1.074-0.215-2.14-0.596-3.145-0.667-1.716-2.024-3.073-3.743-3.737-0.994-0.373-2.044-0.573-3.108-0.596-1.367-0.061-1.801-0.078-5.273-0.078s-3.916 0-5.274 0.078c-1.062 0.023-2.112 0.223-3.106 0.596-1.719 0.664-3.078 2.021-3.743 3.737-0.374 0.992-0.576 2.041-0.596 3.101-0.061 1.367-0.080 1.8-0.080 5.265s0 3.909 0.080 5.265c0.021 1.061 0.222 2.109 0.596 3.104 0.667 1.715 2.024 3.071 3.744 3.735 0.989 0.386 2.040 0.604 3.106 0.639 1.369 0.061 1.803 0.079 5.274 0.079s3.917 0 5.274-0.079c1.062-0.021 2.113-0.221 3.108-0.595 1.719-0.666 3.076-2.022 3.743-3.737 0.374-0.993 0.574-2.041 0.596-3.104 0.061-1.365 0.079-1.798 0.079-5.265-0.003-3.466-0.003-3.906-0.082-5.264zM15.99 22.531c-3.631 0-6.572-2.937-6.572-6.561s2.941-6.561 6.572-6.561c3.628 0 6.572 2.936 6.572 6.561s-2.944 6.561-6.572 6.561zM22.824 10.696c-0.849 0-1.532-0.684-1.532-1.53s0.684-1.53 1.532-1.53c0.846 0 1.531 0.684 1.531 1.53s-0.685 1.53-1.531 1.53z"></path>
+                <path d="M15.992 19.976c2.211 0 4.004-1.793 4.004-4.004s-1.793-4.004-4.004-4.004c-2.211 0-4.004 1.793-4.004 4.004s1.793 4.004 4.004 4.004z"></path>
+            </symbol>
+            <symbol id="icon-youtube" viewBox="0 0 32 32">
+                <path d="M24.674 5.474c-1.432-.084-4.379-.168-8.842-.168h-.589c-4.295 0-7.158.084-8.589.253-1.937.168-3.284.674-4.042 1.347-.674.589-1.179 1.684-1.347 3.116-.084.926-.168 2.863-.168 5.811v.421c0 2.779.084 4.716.253 5.642.253 1.347.674 2.358 1.516 2.947.842.674 2.274 1.095 4.295 1.263 1.432.084 4.379.168 8.842.168h.589c4.295 0 7.158-.084 8.589-.253 1.937-.168 3.284-.674 4.042-1.347.674-.589 1.179-1.684 1.347-3.116.084-.926.168-2.863.168-5.811v-.421c0-2.779-.084-4.716-.253-5.642-.253-1.347-.674-2.358-1.516-2.947-.842-.674-2.274-1.095-4.295-1.263zm-3.285 10.357-9.263 5.558V10.273l9.263 5.558z"/>
+            </symbol>
+        </defs>
+    </svg>
+
+    <input type="checkbox" id="menu-toggle" hidden>
+    <label for="menu-toggle" class="menu-icon">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+    </label>
+
+    <!-- Боковое меню -->
+    <div class="menu">
+        <label for="menu-toggle" class="close-btn">&times;</label>
+        <ul class="menu-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#catalog">Catalog</a></li>
+            <li><a href="#sale">Sale</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <!-- Социальные иконки -->
+        <div class="social-icons">
+            <a href="https://facebook.com" class="svg-link" target="_blank" aria-label="Facebook">
+                <svg class="svg-img">
+                    <use xlink:href="#icon-facebook"></use>
+                </svg>
+            </a>
+            <a href="https://instagram.com" class="svg-link" target="_blank" aria-label="Instagram">
+                <svg class="svg-img">
+                    <use xlink:href="#icon-insta"></use>
+                </svg>
+            </a>
+            <a href="https://youtube.com" class="svg-link" target="_blank" aria-label="YouTube">
+                <svg class="svg-img">
+                    <use xlink:href="#icon-youtube"></use>
+                </svg>
+            </a>
+        </div>        
+    </div>
+
+    <!-- Скрипт для управления меню -->
+    <script src="../js/menu.js"></script>
+</body>
+</html>
