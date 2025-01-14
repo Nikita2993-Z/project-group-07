@@ -3,34 +3,27 @@
     justify-content: center;
     align-items: center;
 }
+.reviews .name-title{
+    font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+}
 
-.reviews .name-text {
-    color: #0c0c0c66;
-    text-align: center;
+
+.reviews  .name-text {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(12, 12, 12, 0.4);
 
 }
 
 
-h1,h2,h3,h4,h5,h6,p {
-    margin: 0
-}
 
-a {
-    text-decoration: none
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0
-}
-
-
-body {
-    font-family: Gilroy,sans-serif;
-    font-style: normal;
-    background: #fbfbfb
-}
 
 .section .container {
     padding-bottom: 30px;}

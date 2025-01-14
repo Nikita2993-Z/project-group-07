@@ -319,8 +319,7 @@
   background-color: #3350e9;
 }
 
-.mobile-menu-nav-link.current::after {
-}
+
 
 @media screen and (min-width: 768px) {
   .mobile-menu-nav-list {
@@ -358,9 +357,7 @@
   opacity: 1;
 }
 
-.mobile-menu-media-item-link {
-  
-}
+
 
 @media screen and (min-width: 768px) {
   .mobile-menu-media {
