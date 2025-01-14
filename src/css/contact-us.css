@@ -76,6 +76,9 @@
           .contact-us-box {
               padding: 50px 60px;
           }
+          .contact-us-img {
+            border-radius: 50px;
+          }
       }
 
       .contact-us-txt {
@@ -165,8 +168,12 @@
               padding: 17px 63px;
               margin-top: 16px;
           }
+          .contact-us-img {
+            border-radius: 50px;
+          }
       }
 
       .contact-us-img {
           margin: 0 auto;
+          border-radius: 30px;
       }
