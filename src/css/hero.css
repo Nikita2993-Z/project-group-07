@@ -11,6 +11,9 @@
   padding: 60px 20px 0px 20px;
   max-width: 375px;
 }
+.hero-container {
+  margin-top: 60px;
+}
 .text-container {
   display: flex;
   align-items: flex-start;
@@ -25,6 +28,7 @@
   line-height: 0.95;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+ 
 }
 .hero-span {
   color: #3350e9;
@@ -104,6 +108,7 @@
   }
   .hero {
     padding-bottom: 40px;
+    
   }
   .hero .container {
     display: flex;
@@ -121,6 +126,7 @@
     flex-direction: row;
     gap: 11px;
     width: 704px;
+    padding-top: 80px;
   }
   .text-container {
     display: flex;
@@ -228,6 +234,7 @@
     flex-direction: row;
     gap: 407px;
     width: 1150px;
+    margin-top: 0;
   }
   .text-container {
     display: flex;
