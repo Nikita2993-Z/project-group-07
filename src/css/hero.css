@@ -126,7 +126,7 @@
     flex-direction: row;
     gap: 11px;
     width: 704px;
-    padding-top: 80px;
+    
   }
   .text-container {
     display: flex;
@@ -234,7 +234,7 @@
     flex-direction: row;
     gap: 407px;
     width: 1150px;
-    margin-top: 0;
+    margin-top: 80px;
   }
   .text-container {
     display: flex;
