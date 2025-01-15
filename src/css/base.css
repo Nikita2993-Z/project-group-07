@@ -35,3 +35,6 @@ img {
   height: auto;
 
 }
+textarea {
+  resize: none;
+}

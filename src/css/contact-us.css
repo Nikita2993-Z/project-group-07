@@ -2,6 +2,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
       }
+      
 
       @media screen and (min-width: 768px) {
         .contact-us {
@@ -118,7 +119,7 @@
 
 
       .contact-us-input {
-          display: block;
+          
           min-width: 224px;
           padding: 12px 14px;
           border-radius: 12px;
