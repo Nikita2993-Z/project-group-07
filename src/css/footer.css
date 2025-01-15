@@ -1,6 +1,8 @@
+/* #region======== MOBILE ============ */
+
 .footer {
   padding-top: 30px;
-
+padding-bottom: 20px;
   font-weight: 500;
   letter-spacing: -0.02em;
 }
@@ -13,14 +15,13 @@
   border-radius: 30px;
 }
 
-.footer .container {
-}
-
 .footer-top-box {
+  margin-bottom: 40px;
 }
 
 .footer-logo-soc-box {
   margin-bottom: 20px;
+  width: 122px;
 }
 
 footer .logo {
@@ -33,8 +34,7 @@ footer .logo {
 
 .footer-social-list {
   display: flex;
-  justify-content: flex-start;
-  gap: 10px;
+  justify-content: space-between;
 }
 
 .footer-social-item {
@@ -60,7 +60,7 @@ footer .logo {
   fill: #ffffff;
 
   opacity: 0.8;
-  transform: opacity;
+  
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -78,12 +78,11 @@ footer .logo {
   color: #fbfbfb;
 
   padding: 13px 20px;
-  margin-bottom: 40px;
 
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
 
-  transform: color, background-color;
+  
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -111,6 +110,10 @@ footer .logo {
   margin-bottom: 48px;
 
   position: relative;
+
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: capitalize;
 }
 
 .footer-nav-address-box::after {
@@ -123,9 +126,6 @@ footer .logo {
   bottom: -24px;
 }
 
-.footer-nav {
-}
-
 .footer-nav-list {
   display: flex;
   justify-content: flex-start;
@@ -134,25 +134,16 @@ footer .logo {
   row-gap: 8px;
 
   width: 147px;
-
-  font-size: 12px;
-
-  line-height: 1.33;
-  text-align: center;
-  text-transform: capitalize;
 }
 
-.footer-nav-item {
-}
-
-.footer-nav-link {
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  text-decoration: underline;
 }
 
 .footer-address {
   width: 83px;
 
-  font-size: 12px;
-  line-height: 1.33;
   font-style: normal;
 }
 
@@ -174,8 +165,127 @@ footer .logo {
   gap: 20px;
 }
 
-.footer-terms-text {
+/* #endregion===== MOBILE ============ */
+
+/* #region======== TABLET ============ */
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+
+  .footer-main-box {
+    padding: 40px 40px 28px 40px;
+  }
+
+  .footer-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 86px;
+  }
+
+  .footer-logo-soc-box {
+    margin-bottom: 0;
+  }
+
+  .footer-social-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-social-item:hover .footer-social-icon,
+  .footer-social-item:hover .footer-social-icon {
+    opacity: 1;
+  }
+
+  .footer-phone-link:hover,
+  .footer-phone-link:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+  }
+
+  .footer-title {
+    width: 524px;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .footer-nav-address-box {
+    margin-bottom: 56px;
+
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-nav-address-box::after {
+    bottom: -28px;
+  }
+
+  .footer-nav-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 400px;
+  }
+
+  .footer-nav-link:hover,
+  .footer-nav-link:focus {
+    text-decoration: underline;
+  }
+
+  .footer-address {
+    width: 162px;
+  }
+
+  .footer-bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-terms-and-privacy-link:hover,
+  .footer-terms-and-privacy-link:focus {
+    text-decoration: underline;
+  }
+}
+/* #endregion===== TABLET ============ */
+
+/* #region======== DESKTOP ============ */
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 32px;
+  }
+
+  .footer .container {
+    width: 1216px;
+    padding: 0;
+  }
+
+  .footer-main-box {
+    position: relative;
+  }
+
+  .footer-top-box {
+    margin-bottom: 142px;
+  }
+
+  .footer-title {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+  }
 }
 
-.footer-privacy-text {
-}
+/* #endregion===== DESKTOP ============ */

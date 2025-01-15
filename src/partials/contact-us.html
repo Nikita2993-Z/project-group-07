@@ -1,6 +1,6 @@
 
 <section class="contact-us" id="contact-us">
-  <div class="container">
+  <div class="container contact-us-container">
     <h2 class="contact-us-title">Contact Us</h2>
     <div class="contact-us-wrap">
       <div class="contact-us-box">
@@ -10,40 +10,40 @@
         </p>
         <form class="contact-us-form">
           <div class="contact-us-group">
-            <label for="user-name" class="contact-us-label">
+            <label class="contact-us-label">
               <input
                 class="contact-us-input"
                 type="text"
                 name="user-name"
                 placeholder="Name"
-                autofocus
-              />
+                
+              required/>
             </label>
           </div>
           <div class="contact-us-group">
-            <label for="user-email" class="contact-us-label">
+            <label class="contact-us-label">
               <input
                 class="contact-us-input"
                 type="text"
                 name="user-email"
                 placeholder="Email"
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              />
+              required/>
             </label>
           </div>
           <div class="contact-us-group">
-            <label for="user-phone" class="contact-us-label">
+            <label class="contact-us-label">
               <input
                 class="contact-us-input"
                 type="text"
                 name="user-phone"
                 placeholder="+380"
                 pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-              />
+              required/>
             </label>
           </div>
           <div class="contact-us-form-comment">
-            <label for="user-comment" class="contact-us-label">
+            <label class="contact-us-label">
               <textarea
                 name="user-comment"
                 class="contact-us-input"
@@ -77,7 +77,11 @@
           "
           media="(max-width: 767px)"
         />
-        <img src="/img/contact-us/contact-us-mob.jpg" alt="premium watch" />
+        <img
+          class="contact-us-img"
+          src="/img/contact-us/contact-us-mob.jpg"
+          alt="premium watch" loading="lazy"
+        />
       </picture>
     </div>
   </div>

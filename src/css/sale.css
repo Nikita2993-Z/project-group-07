@@ -132,12 +132,9 @@
 }
 
 @media (min-width: 768px) {
-    .sale {}
-
-    .container.sale-container {
-        padding-bottom: 80px;
-    }
-
+.container.sale-container {
+    padding-bottom: 80px;
+}
     .sale-name {
         font-size: 48px;
         line-height: 0.92;
@@ -214,7 +211,6 @@
 @media (min-width: 1280px) {
     .container.sale-container {
         padding-bottom: 100px;
-
     }
 
     .tablet-container {
@@ -238,7 +234,6 @@
         flex-direction: row;
         gap: 40px;
         width: 1150px;
-
     }
 
     .sale-content {
