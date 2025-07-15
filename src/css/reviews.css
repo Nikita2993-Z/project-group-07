@@ -84,6 +84,12 @@ color: rgba(12, 12, 12, 0.4);
         max-width: 370px;
         flex-basis: calc((100% - 20px) / 3)
     }
+    .name-title {
+        padding-top: 100px;
+    }
+    .review-lists {
+        padding-bottom: 100px;
+    }
 }
 
 .review-inform {
